@@ -2,6 +2,7 @@
 
 Write the below programs in the same repository. Each program should be contained in one commit. Don't use `ChatGPT` or other LLM for solutions. These exercises are meant to teach you the concepts of `Kotlin`.
 
+
 ## Basic Syntax
 
 - Write a program that prints "Hello, World!" to the console.
@@ -87,3 +88,13 @@ Write the below programs in the same repository. Each program should be containe
 ## Destructuring Declarations
 
 - Write a program that uses destructuring declarations to unpack the properties of a data class `User`.
+
+
+
+
+
+# Notes
+
+* This repository will be the single source of truth for learning Kotlin. However, I will add a bonus application that you can finish alongside these exercises.
+
+The application will be about creating an activity that views your name. You need to center your name in the middle using both XML files and Jetpack Compose functions. You can use LLM for this project but not for writing code, just for clarifying concepts and understanding new syntax. You can write this project at any part of this project's lifecycle (you don't have to finish the whole Kotlin exercises to write it, but it's better if you do).
