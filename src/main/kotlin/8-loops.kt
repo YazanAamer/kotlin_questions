@@ -14,3 +14,7 @@ fun main() {
   println(generateFibonacci(10))
   generateMultiplicationTable(6, 12)
 }
+
+
+
+/// The code is great. but can you write that using recursion also? 

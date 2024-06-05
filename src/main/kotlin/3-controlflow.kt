@@ -1,18 +1,28 @@
 fun main() {
-  val a = -311
-  when (if (a > 0) 1 else if (a < 0) -1 else 0) {
-      0 -> println("zero")
-      1 -> println("positive")
-      -1 -> println("negative")
-  }
-  val b = 4
-  when (b) {
-      1 -> println("Sunday")
-      2 -> println("Monday")
-      3 -> println("Tuesday")
-      4 -> println("Wednesday")
-      5 -> println("Thursday")
-      6 -> println("Friday")
-      7 -> println("Saturday")
-  }
+    val a = -311
+    println(determineSign(a))
+
+    val b = 4
+    println(determineDayOfWeek(b))
+}
+
+fun determineSign(number: Int): String {
+    return when {
+        number > 0 -> "positive"
+        number < 0 -> "negative"
+        else -> "zero"
+    }
+}
+
+fun determineDayOfWeek(day: Int): String {
+    return when (day) {
+        1 -> "Sunday"
+        2 -> "Monday"
+        3 -> "Tuesday"
+        4 -> "Wednesday"
+        5 -> "Thursday"
+        6 -> "Friday"
+        7 -> "Saturday"
+        else -> "Invalid day"
+    }
 }
