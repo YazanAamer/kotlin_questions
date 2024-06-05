@@ -89,7 +89,23 @@ Write the below programs in the same repository. Each program should be containe
 
 - Write a program that uses destructuring declarations to unpack the properties of a data class `User`.
 
+## LiveData
 
+1. Create a `LiveData` that holds a list of integers. Observe changes to the `LiveData` and update the UI accordingly.
+
+2. Implement a `ViewModel` that uses `LiveData` to manage UI-related data in a lifecycle-conscious way.
+
+## Flow
+
+1. Use Kotlin Flow to handle a stream of data. Create a Flow that emits a list of integers with a delay between each emission.
+
+2. Collect the Flow in a coroutine and update the console with the emitted values.
+
+## JSON API Requests
+
+1. Write a function to make an API request and parse the JSON response into a data class using Retrofit.
+
+2. Create a `ViewModel` that makes an API request using Retrofit and exposes the result as `LiveData`.
 
 
 
