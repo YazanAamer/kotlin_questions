@@ -87,11 +87,15 @@ Write the below programs in the same repository. Each program should be containe
 
 ## Destructuring Declarations
 
-- Write a program that uses destructuring declarations to unpack the properties of a data class `User`.
+- Write a program that uses Destructuring Declarations
+
+## Observers 
+
+1. Implement an observer that has an attribute subscribers listen to. Implement the design pattern itself. It should have subscribers, publishers, an attribute to listen to.
 
 ## LiveData
 
-1. Create a `LiveData` that holds a list of integers. Observe changes to the `LiveData` and update the UI accordingly.
+1. Create a `LiveData` that holds a list of integers. Observe changes to the `LiveData` and update the Console accordingly.
 
 2. Implement a `ViewModel` that uses `LiveData` to manage UI-related data in a lifecycle-conscious way.
 
@@ -127,6 +131,8 @@ The application will be about creating an activity that views your name. You nee
 * Books related to OOP
 1. Clean Code by Robert Cecil Martin
 2. Design Patterns: Elements of Reusable Object-Oriented Software
+
+
 
 
 
