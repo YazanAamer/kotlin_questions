@@ -25,7 +25,7 @@ class Bike: Drivable {
 }
 
 fun main () {
-    val myBike = Bike()
+    val myBike: Drivable = Car()
     myBike.drive(1, 2)
     println("myBike; x=${myBike.posX}, y=${myBike.posY})")
     val myCar = Car()

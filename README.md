@@ -107,6 +107,14 @@ Write the below programs in the same repository. Each program should be containe
 
 2. Create a `ViewModel` that makes an API request using Retrofit and exposes the result as `LiveData`.
 
+## Liskov Substitution Principle (LSP)
+
+1.1 Define a base class Shape with a method calculateArea(). Create derived classes Square and Rectangle. Refactor the design to ensure it follows the Liskov Substitution Principle, especially focusing on handling cases where Square might break LSP if not handled properly.
+
+1.2 Introduce DI (dependency injection) to the code. Depend only on the interface to call the functions of the Rectangle class. 
+1.3 Now, change the implementation from Rectangle to Square. 
+
+
 
 
 # Notes
@@ -114,3 +122,14 @@ Write the below programs in the same repository. Each program should be containe
 * This repository will be the single source of truth for learning Kotlin. However, I will add a bonus application that you can finish alongside these exercises.
 
 The application will be about creating an activity that views your name. You need to center your name in the middle using both XML files and Jetpack Compose functions. You can use LLM for this project but not for writing code, just for clarifying concepts and understanding new syntax. You can write this project at any part of this project's lifecycle (you don't have to finish the whole Kotlin exercises to write it, but it's better if you do).
+
+
+* Books related to OOP
+1. Clean Code by Robert Cecil Martin
+2. Design Patterns: Elements of Reusable Object-Oriented Software
+
+
+
+
+
+
