@@ -93,12 +93,6 @@ Write the below programs in the same repository. Each program should be containe
 
 1. Implement an observer that has an attribute subscribers listen to. Implement the design pattern itself. It should have subscribers, publishers, an attribute to listen to.
 
-## LiveData
-
-1. Create a `LiveData` that holds a list of integers. Observe changes to the `LiveData` and update the Console accordingly.
-
-2. Implement a `ViewModel` that uses `LiveData` to manage UI-related data in a lifecycle-conscious way.
-
 ## Flow
 
 1. Use Kotlin Flow to handle a stream of data. Create a Flow that emits a list of integers with a delay between each emission.
@@ -108,8 +102,6 @@ Write the below programs in the same repository. Each program should be containe
 ## JSON API Requests
 
 1. Write a function to make an API request and parse the JSON response into a data class using Retrofit.
-
-2. Create a `ViewModel` that makes an API request using Retrofit and exposes the result as `LiveData`.
 
 ## Liskov Substitution Principle (LSP)
 
