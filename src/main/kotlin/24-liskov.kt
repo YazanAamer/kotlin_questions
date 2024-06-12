@@ -16,8 +16,8 @@ class Rectangle2(p1: Double, p2: Double, p3: Double): Shape2(p1, p2, p3){
 }
 
 fun main() {
-    val mySquare = Square2(1.0, 2.0, 3.0)
-    val myRectangle = Rectangle2(1.0, 2.0, 3.0)
+    val mySquare: Shape2 = Square2(1.0, 2.0, 3.0)
+    val myRectangle: Shape2 = Rectangle2(1.0, 2.0, 3.0)
     println(mySquare.calculateArea())
     println(myRectangle.calculateArea())
 }
